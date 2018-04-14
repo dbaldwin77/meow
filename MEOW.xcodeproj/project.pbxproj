@@ -12,6 +12,11 @@
 		5E0A36B3207C004B00355E69 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E0A36B1207C004B00355E69 /* Main.storyboard */; };
 		5E0A36B5207C004F00355E69 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5E0A36B4207C004F00355E69 /* Assets.xcassets */; };
 		5E0A36B8207C004F00355E69 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E0A36B6207C004F00355E69 /* LaunchScreen.storyboard */; };
+		5E0A36C2207C00EF00355E69 /* Cat.wav in Resources */ = {isa = PBXBuildFile; fileRef = 5E0A36C1207C00EF00355E69 /* Cat.wav */; };
+		5E0A36C3207C02B500355E69 /* Cat.wav in Sources */ = {isa = PBXBuildFile; fileRef = 5E0A36C1207C00EF00355E69 /* Cat.wav */; };
+		5E0A36C6207C02CE00355E69 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E0A36C5207C02CE00355E69 /* AVFoundation.framework */; };
+		5ED32BD1207CF5AA00D19563 /* Cat2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5ED32BD0207CF5AA00D19563 /* Cat2.mp3 */; };
+		5ED32BD2207CF5E300D19563 /* Cat2.mp3 in Sources */ = {isa = PBXBuildFile; fileRef = 5ED32BD0207CF5AA00D19563 /* Cat2.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +27,9 @@
 		5E0A36B4207C004F00355E69 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5E0A36B7207C004F00355E69 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5E0A36B9207C004F00355E69 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5E0A36C1207C00EF00355E69 /* Cat.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Cat.wav; sourceTree = "<group>"; };
+		5E0A36C5207C02CE00355E69 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		5ED32BD0207CF5AA00D19563 /* Cat2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Cat2.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +37,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5E0A36C6207C02CE00355E69 /* AVFoundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +49,7 @@
 			children = (
 				5E0A36AC207C004B00355E69 /* MEOW */,
 				5E0A36AB207C004B00355E69 /* Products */,
+				5E0A36C4207C02CE00355E69 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -60,8 +70,18 @@
 				5E0A36B4207C004F00355E69 /* Assets.xcassets */,
 				5E0A36B6207C004F00355E69 /* LaunchScreen.storyboard */,
 				5E0A36B9207C004F00355E69 /* Info.plist */,
+				5ED32BD0207CF5AA00D19563 /* Cat2.mp3 */,
+				5E0A36C1207C00EF00355E69 /* Cat.wav */,
 			);
 			path = MEOW;
+			sourceTree = "<group>";
+		};
+		5E0A36C4207C02CE00355E69 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5E0A36C5207C02CE00355E69 /* AVFoundation.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -123,8 +143,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				5E0A36B8207C004F00355E69 /* LaunchScreen.storyboard in Resources */,
+				5ED32BD1207CF5AA00D19563 /* Cat2.mp3 in Resources */,
 				5E0A36B5207C004F00355E69 /* Assets.xcassets in Resources */,
 				5E0A36B3207C004B00355E69 /* Main.storyboard in Resources */,
+				5E0A36C2207C00EF00355E69 /* Cat.wav in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -135,6 +157,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5ED32BD2207CF5E300D19563 /* Cat2.mp3 in Sources */,
+				5E0A36C3207C02B500355E69 /* Cat.wav in Sources */,
 				5E0A36B0207C004B00355E69 /* ViewController.swift in Sources */,
 				5E0A36AE207C004B00355E69 /* AppDelegate.swift in Sources */,
 			);
